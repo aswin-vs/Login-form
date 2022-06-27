@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<title>Login Form</title>
+	<link rel="icon" href="public/images/login-icon.png"/>
+
+	<!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet"/>
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/39abac092b.js" crossorigin="anonymous"></script>
+
+	<!--External CSS-->
+	<link rel="stylesheet" href="public/css/styles.css"/>
+</head>
+
+<body>
+	<div class="bg-img" style="background-image: url('public/images/bg.jpg');">
+		<div class="content">
+			<div class="greet">
+				<div class="greet1">Hello !</div>
+				<div class="greet2">Good Morning</div>
+			</div>
+
+			<header><span class="log">Login</span> Your Account</header>
+			<form action="#">
+				<div class="field box">
+					<span class="fa fa-user"></span>
+					<input type="email" required autofocus placeholder="Email Address"/>
+				</div>
+
+				<div class="field space box">
+					<span class="fa fa-lock"></span>
+					<input type="password" class="pass-key" required placeholder="Password"/>
+					<span id="icon" class="show"><i class="fa-regular fa-eye"></i></span>
+				</div>
+
+				<div class="pass">
+					<div class="pass1">
+					<a href="#">Forgot Password?</a>
+					</div>
+					
+					<div class="pass2">
+					<input type="checkbox"/>
+					<span> Remember Me</span>
+				  </div>
+				</div>
+
+				<div class="field button">
+					<input type="submit" value="LOGIN"/>
+				</div>
+			</form>
+
+			<div class="signup">
+				<a href="#">Create Account | SignUp</a>
+			</div>
+		</div>
+	</div>
+
+	<!--External JavaScript-->
+	<script src="script.js"></script>	
+</body>
+</html>
